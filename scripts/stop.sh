@@ -9,6 +9,8 @@ crontab_job="*/15 * * * * /usr/bin/bash ${SCRIPT_DIR}/set_background.sh"
 crontab_job_reboot="@reboot /usr/bin/bash ${SCRIPT_DIR}/set_background.sh"
 
 # Stopping task in Cronos
+earth-wallpaper stop
+
 # https://askubuntu.com/questions/408611/how-to-remove-or-delete-single-cron-job-using-linux-command
 if grep -Fxq "${crontab_job}" "${SCRIPT_DIR}/.earth-wallpaper.temp"
 then

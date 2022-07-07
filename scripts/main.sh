@@ -39,4 +39,3 @@ else
     echo "Not a valid or missing command."
 
 fi
-echo "Done"
