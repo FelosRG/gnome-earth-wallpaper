@@ -20,6 +20,9 @@ view_setting="$(head -1 ${SCRIPT_DIR}/earth-wallpaper.config)"
 if [ "$view_setting" = "CONUS" ]; then
     URL="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/latest.jpg"
 
+elif [ "$view_setting" = "PACIFIC" ]; then
+    URL="https://cdn.star.nesdis.noaa.gov/GOES17/ABI/SECTOR/tpw/GEOCOLOR/latest.jpg"
+
 elif [ "$view_setting" = "DISK" ]; then
     URL="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/5424x5424.jpg"
 fi
