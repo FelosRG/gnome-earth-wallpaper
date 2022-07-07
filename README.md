@@ -28,6 +28,21 @@ Bellow you will see an example of how will look your background.
 
 <br>
 
+### Change background image to the Pacific view of the Earth
+```
+earth-wallpaper set PACIFIC
+```
+
+Bellow you will see an example of how will look your background.
+<p align="center">
+    <img src="Figures/../figures/view_PACIFIC.jpg" alt="Picture of the earth as background" width="80%" />
+</p>
+
+<br>
+
+
+
+
 ### Change background image to the Disk view of the Earth
 
 ```
