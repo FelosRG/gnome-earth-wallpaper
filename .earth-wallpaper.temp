@@ -1,0 +1,2 @@
+*/15 * * * * /usr/bin/bash /home/felos/Repos/GOES-Live-Wallpaper/set_background.sh
+@reboot /usr/bin/bash /home/felos/Repos/GOES-Live-Wallpaper/set_background.sh
