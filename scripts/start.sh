@@ -1,6 +1,6 @@
 #!/bin/bash
 user=$(whoami)
-SCRIPT_DIR="/home/${user}/.earth-wallpaper/"
+SCRIPT_DIR="/home/${user}/.earth-wallpaper"
 
 # Run set_background script
 /usr/bin/bash ${SCRIPT_DIR}/set_background.sh
