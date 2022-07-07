@@ -15,8 +15,14 @@ elif [ "${ARG[0]}" = "status" ]; then
     /usr/bin/bash ${SCRIPT_DIR}/status.sh
 
 elif [ "${ARG[0]}" = "set" ]; then
+
     if [ "${ARG[1]}" = "CONUS" ]; then
         sed -i "1s/.*/CONUS/" ${SCRIPT_DIR}/earth-wallpaper.config # https://stackoverflow.com/questions/13438095/replace-the-first-line-in-a-text-file-by-a-string
+        /usr/bin/bash ${SCRIPT_DIR}/set_background.sh
+        echo "The wallpaper view has been change to CONUS"
+
+    elif [ "${ARG[1]}" = "PACIFIC" ]; then
+        sed -i "1s/.*/PACIFIC/" ${SCRIPT_DIR}/earth-wallpaper.config # https://stackoverflow.com/questions/13438095/replace-the-first-line-in-a-text-file-by-a-string
         /usr/bin/bash ${SCRIPT_DIR}/set_background.sh
         echo "The wallpaper view has been change to CONUS"
 
