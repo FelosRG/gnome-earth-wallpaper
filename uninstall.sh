@@ -4,7 +4,7 @@ user=$(whoami)
 DIR="/home/${user}/.earth-wallpaper/"
 
 echo "Stoping the cronos task"
-earh-wallpaper stop
+earth-wallpaper stop
 
 echo "Deleting the directory of the program at ${DIR}"
 rm -rf ${DIR}
